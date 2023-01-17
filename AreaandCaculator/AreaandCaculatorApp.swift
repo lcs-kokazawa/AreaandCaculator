@@ -11,7 +11,7 @@ import SwiftUI
 struct AreaandCaculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RectangleView()
         }
     }
 }
