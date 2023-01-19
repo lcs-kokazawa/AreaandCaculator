@@ -11,6 +11,8 @@
 		F751199B297705A7007417B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F751199A297705A7007417B1 /* Assets.xcassets */; };
 		F751199E297705A7007417B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F751199D297705A7007417B1 /* Preview Assets.xcassets */; };
 		F75119A629770647007417B1 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75119A529770647007417B1 /* RectangleView.swift */; };
+		F7FFD83A2979CF1A00715B03 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD8392979CF1A00715B03 /* ListView.swift */; };
+		F7FFD83E2979D2D800715B03 /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD83D2979D2D800715B03 /* ParallelogramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F751199A297705A7007417B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F751199D297705A7007417B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F75119A529770647007417B1 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		F7FFD8392979CF1A00715B03 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F7FFD83D2979D2D800715B03 /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				F75119A529770647007417B1 /* RectangleView.swift */,
+				F7FFD83D2979D2D800715B03 /* ParallelogramView.swift */,
+				F7FFD8392979CF1A00715B03 /* ListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FFD83E2979D2D800715B03 /* ParallelogramView.swift in Sources */,
 				F75119A629770647007417B1 /* RectangleView.swift in Sources */,
 				F75119972977059F007417B1 /* AreaandCaculatorApp.swift in Sources */,
+				F7FFD83A2979CF1A00715B03 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
